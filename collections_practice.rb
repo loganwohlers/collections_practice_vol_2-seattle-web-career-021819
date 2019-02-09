@@ -75,8 +75,6 @@ end
 def organize_schools (schools)
   org={}
   schools.each do |k,v|
-    puts k
-    puts v
     x= v[:location]
     puts x
     if !org.keys.include?(x)
